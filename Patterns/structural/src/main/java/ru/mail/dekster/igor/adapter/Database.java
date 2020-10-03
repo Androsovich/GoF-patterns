@@ -1,0 +1,11 @@
+package ru.mail.dekster.igor.adapter;
+
+public interface Database {
+    void insert();
+
+    void update();
+
+    void select();
+
+    void remove();
+}
